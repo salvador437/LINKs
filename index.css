@@ -17,8 +17,8 @@ a {
 }
 
 .text {
-  font-size: 2rem;
-  font-family: helvetica;
+  font-size: 3rem;
+  font-family:'Courier New', Courier, monospace;
   font-weight: bold;
   color: #fcfafb;
   text-transform: uppercase;
