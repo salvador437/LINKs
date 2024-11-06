@@ -1,36 +1,34 @@
-body{
+body {
   background-color: #222;
 }
 
-ul li,a{
-  display:flex;
+ul li,
+a {
+  display: flex;
   margin: 0;
-  padding: 10px;
-  font-size:  1.5rem;
+  padding: 0.625rem;
+  font-size: 1.5rem;
   text-decoration: none;
-  color:#f403c4;
-  & a:hover{
+  color: #f403c4;
+  & a:hover {
     background-color: #f403c4;
     color: aliceblue;
     border-radius: 5px;
   }
 }
 
-
-
 .text {
-  font-size:2rem;
-  font-family:helvetica;
-  font-weight:bold;
-  color:#fcfafb;
-  text-transform:uppercase;
+  font-size: 2rem;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #fcfafb;
+  text-transform: uppercase;
   text-align: center;
 }
 .parpadea {
-  
   animation-name: parpadeo;
   animation-duration: 0.5s;
-  animation-timing-function:ease-in-out;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 
   /* -webkit-animation-name:parpadeo;
@@ -51,8 +49,14 @@ ul li,a{
    100% { opacity: 1.0; }
 } */
 
-@keyframes parpadeo {  
-  0% { opacity: 1.0; }
-   50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
