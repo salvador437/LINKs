@@ -4,7 +4,6 @@ body {
 
 ul li,
 a {
-  
   padding: 0.625rem;
   font-size: 1.5rem;
   text-decoration: none;
@@ -16,23 +15,22 @@ a {
   }
 }
 
-.container{
+.container {
   border: 2px solid #faf7f9;
   margin: 5px;
   border-radius: 20px;
 }
 
-.items{
+.items {
   border: 2px solid #f3a985;
   margin: 25px;
   border-radius: 20px;
   max-width: 300px;
 }
 
-
 .text {
   font-size: 3rem;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   color: #fcfafb;
   text-transform: uppercase;
@@ -41,29 +39,42 @@ a {
   text-shadow: 4px 4px rgb(8, 8, 8);
   margin: 5px;
 }
+
 .parpadea {
   animation-name: parpadeo;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 
-  /* -webkit-animation-name:parpadeo;
+  -webkit-animation-name: parpadeo;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite; */
+  -webkit-animation-iteration-count: infinite;
 }
 
-/* @-moz-keyframes parpadeo{  
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@-webkit-keyframes parpadeo {  
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-   100% { opacity: 1.0; }
-} */
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes parpadeo {
   0% {
