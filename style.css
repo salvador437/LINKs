@@ -4,11 +4,11 @@ body {
 
 ul li,
 a {
-  display: flex;
+  
   padding: 0.625rem;
   font-size: 1.5rem;
   text-decoration: none;
-  color: #f403c4;
+  color: #f905b4;
   & a:hover {
     background-color: #f403c4;
     color: aliceblue;
@@ -16,13 +16,30 @@ a {
   }
 }
 
+.container{
+  border: 2px solid #faf7f9;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.items{
+  border: 2px solid #f3a985;
+  margin: 25px;
+  border-radius: 20px;
+  max-width: 300px;
+}
+
+
 .text {
   font-size: 3rem;
   font-family:'Courier New', Courier, monospace;
   font-weight: bold;
   color: #fcfafb;
   text-transform: uppercase;
+  letter-spacing: 20px;
   text-align: center;
+  text-shadow: 4px 4px rgb(8, 8, 8);
+  margin: 5px;
 }
 .parpadea {
   animation-name: parpadeo;
