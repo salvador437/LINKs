@@ -16,15 +16,12 @@ ul li,a{
   font-size:  2.0rem;
   text-decoration: none;
   color:orangered;
-  & a:hover{
-    background-color: orangered;
-    color: aliceblue;
-    border-radius: 5px;
-  }
 }
 
 a:hover{
+  background-color: orangered;
   color: white;
+  border-radius: 5px;
 }
 
 p::first-letter {
@@ -80,22 +77,6 @@ p::first-letter {
   animation-timing-function:ease-in-out;
   animation-iteration-count: infinite;
 
-  -webkit-animation-name:parpadeo;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-}
-
-@-moz-keyframes parpadeo{  
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
-}
-
-@-webkit-keyframes parpadeo {  
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
 }
 
 @keyframes parpadeo {  
