@@ -16,13 +16,36 @@ a {
 }
 
 .container {
-  border: 2px solid #faf7f9;
+  display:inline-flex;
+  border: 2px solid #f55d06;
   margin: 5px;
   border-radius: 20px;
+  max-width: 1250px;
+  color: #faf8f7;
 }
 
+.container-interior{
+  
+  flex-wrap:wrap;
+  border: solid 2px #f55d06;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom:  400px;
+  margin-top: 26px;
+  margin-right: 30px;
+  max-height:  200px;
+  border-radius: 10px;
+  font-size: 30px;
+  & .container-interior:hover {
+    background-color: #f403c4;
+    color: aliceblue;
+    border-radius: 5px;
+  }
+}
 .items {
-  border: 2px solid #f3a985;
+  border: 2px solid #f55d06;
   margin: 25px;
   border-radius: 20px;
   max-width: 300px;
