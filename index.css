@@ -80,13 +80,13 @@ p::first-letter {
   animation-timing-function:ease-in-out;
   animation-iteration-count: infinite;
 
-  /* -webkit-animation-name:parpadeo;
-  -webkit-animation-duration: 0.5s;
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite; */
+  -webkit-animation-iteration-count: infinite;
 }
 
-/* @-moz-keyframes parpadeo{  
+@-moz-keyframes parpadeo{  
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
@@ -95,11 +95,11 @@ p::first-letter {
 @-webkit-keyframes parpadeo {  
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
-   100% { opacity: 1.0; }
-} */
+  100% { opacity: 1.0; }
+}
 
 @keyframes parpadeo {  
   0% { opacity: 1.0; }
-   50% { opacity: 0.0; }
+  50% { opacity: 0.0; }
   100% { opacity: 1.0; }
 }
